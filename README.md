@@ -12,4 +12,4 @@ This is a modern and responsive **Landing Page** for movies and entertainment.
 - JAVASCRIPT
 
 Click the Link below to view the live demo
-## [Live Demo]()
+## [Live Demo](https://github.com/kajalwagaskar237/CODSOFT--Landing-Page/tree/main)
