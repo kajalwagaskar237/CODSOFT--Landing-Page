@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="./main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <title>Movie Website</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">iMovies</a>
+            <ul class="nav">
+                <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#">Marathi</a></li>
+                <li><a href="#">Bollywood</a></li>
+                <li><a href="#">Tollywood</a></li>
+                <li><a href="#">Hollywood</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+
+            </div>
+        </header>
+        <div class="banner">
+            <div class="content natsamrat active" >
+                <h5> 
+                <br><br><br>
+                <span>2016|</span><span> <i>Marathi Cinema</i>|</span><span> Drama|</span><span> Theater Legend</span>
+                </h4>
+                <p>A retired theatur legend, Ganapatrao Belwalkar, faces loneliness and family <br>
+                     betrayal despite his glorious carrer. Nana patekars powerful performance <br>
+                     brings this emotional journey to life in this timeless Marathi classic.
+                </p>
+                <div class="button">
+                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+                </div>
+            </div> 
+            <div class="carousel-box"></div>
+                <div class="carousel">
+                     <a class="carousel-item" href="#"><img src="./images/movies/natsamrat.jfif"></a>
+                     <a class="carousel-item" href="#"><img src="./images/movies/stree 2.jfif"></a>
+                    <a class="carousel-item" href="#"><img src="./images/movies/pushpa 2.jpg"></a>
+                    <a class="carousel-item" href="#"><img src="./images/movies/piretes of carribean3.jfif"></a>
+                </div><br><br><br><br><br>
+            <a href="#" class="play"><i class="fa fa-play-circle" aria-hidden="true"></i>Watch Trailer</a>
+            <ul class="sci">
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./script.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+        });
+      </script>
+    </body>
+</html>
